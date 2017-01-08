@@ -17,3 +17,7 @@ A set of IPython Notebooks which feed off the following topics
    - Use in conjunction with PastHires.csv
  * predicting_sine_using_decision_tree_with_over_under_fitting.ipynb
     - An example of using a DecisionTreeRegression. We take a sine wave, add some outliers. Then try to predict X given Y. (In DecisionTreeRegression Y is a float). The idea is to show that the tree_depth is an important parameter to avoid overfitting
+ * svc.ipynb
+    - A way to do support vector machines using scikit. An Age and Salary Corelation is created, with a known set of centroids. Idea is to see if Linear SVC can really perform better than KMeans 
+ * Item_Based_Movie_Recommender_Try1.ipynb
+    - A try to make Item recommenders using the Movie Lens Data Set. This using lot of inbuild Pandas functions, and the results are not that satisfying. Trying to improve
